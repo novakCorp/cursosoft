@@ -27,11 +27,11 @@ export default function Home({services, projects}) {
 }
 
 // Request from the backend
-export async function getServerSideProps() {
-  const resp = await fetch("http://cursosoft-atdy890na-novakcorp.vercel.app/api/services");
+export async function getStaticProps() {
+  const resp = await fetch("http://cursosoft.vercel.app/api/services");
   const services = await resp.json();
 
-  const resp2 = await fetch("http://cursosoft-atdy890na-novakcorp.vercel.app/api/last-projects");
+  const resp2 = await fetch("http://cursosoft.vercel.app/api/last-projects");
   const projects = await resp2.json();
 
   return {
