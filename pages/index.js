@@ -27,7 +27,7 @@ export default function Home({services, projects}) {
 }
 
 // Request from the backend
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const resp = await fetch("http://cursosoft-atdy890na-novakcorp.vercel.app/api/services");
   const services = await resp.json();
 
