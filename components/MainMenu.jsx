@@ -11,13 +11,19 @@ const MainMenu = () => {
                         </Link>
                     </li>
                     <li>
-                        <a href="/quienes-somos.html">¿Quiénes somos?</a>
+                        <Link href="/quienes-somos">
+                            <a>¿Quiénes somos?</a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/proyectos.html">Proyectos</a>
+                        <Link href="/proyectos">
+                            <a>Proyectos</a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="/contacto.html">Contacto</a>
+                        <Link href="/contacto">
+                            <a>Contacto</a>
+                        </Link>
                     </li>
                 </ul>
         </nav>

@@ -1,5 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 import MainMenu from "./MainMenu";
+
 
 const Header = () => {
     return (
@@ -7,7 +9,12 @@ const Header = () => {
             <div className="content-wrapper">
                 <Link href="/">
                     <a>
-                        <img src="/images/logo.svg" alt="Logo EDsoft" />
+                        <Image 
+                            src="/images/logo.svg" 
+                            alt="Logo EDsoft"
+                            width={136}
+                            height={32}     
+                        />
                     </a>
                 </Link>
                 <span id="open-menu-button" className="jam jam-menu"></span>
