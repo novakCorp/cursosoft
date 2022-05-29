@@ -28,10 +28,10 @@ export default function Home({services, projects}) {
 
 // Request from the backend
 export async function getStaticProps() {
-  const resp = await fetch("http://cursosoft.vercel.app/api/services");
+  const resp = await fetch("http://localhost:3050/services");
   const services = await resp.json();
 
-  const resp2 = await fetch("http://cursosoft.vercel.app/api/last-projects");
+  const resp2 = await fetch("http://localhost:3050/last-projects");
   const projects = await resp2.json();
 
   return {
