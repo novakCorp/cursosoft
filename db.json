@@ -1,0 +1,19 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "name": "Servicio 1",
+            "detail": "Diseñamos tu presencia en internet con apariencia profesional"
+        },
+        {
+            "id": 1,
+            "name": "Servicio 1",
+            "detail": "Diseñamos tu presencia en internet con apariencia profesional"
+        },
+        {
+            "id": 1,
+            "name": "Servicio 1",
+            "detail": "Diseñamos tu presencia en internet con apariencia profesional"
+        }
+    ]
+}
