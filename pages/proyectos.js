@@ -31,7 +31,7 @@ const Proyectos = ({ projects }) => {
 }
 
 export async function getStaticProps() {
-  const resp = await fetch("http://cursosoft.vercel.app/api/projects");
+  const resp = await fetch("http://cursosoft-atdy890na-novakcorp.vercel.app/api/projects");
   const projects = await resp.json();
 
   return {
